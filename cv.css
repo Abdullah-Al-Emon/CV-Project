@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: #e4f9f5;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* my photo */
+.profile-pic{
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-contact{
+    float: right;
+    padding: 35px 30px;
+}
+
+.header-bio{
+    font-size: 13px;
+    float: left;
+    padding: 35px 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    width: 100%;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-bottom: none;
+}
+/* personal information */
+
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-bottom: none;
+}
+/* work section  */
+.righ{
+    float: left;
+    width: 45%;
+}
+.lef{
+    float: right;
+    width: 45%;
+}
+
+/* Educationa qualification  */
+
+.dan{
+    text-align: center;
+    float: left;
+    width: 45%;
+}
+.bam{
+    text-align: center;
+    float: right;
+    width: 45%;
+}
+/* footer  */
+.footer {
+    height: 80px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+}
+.footer a{
+    margin: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: rgb(245, 170, 245);
+}
+.footer p{
+    color: tomato;
+    margin-top: 20px;
+}
+/* favicon */
